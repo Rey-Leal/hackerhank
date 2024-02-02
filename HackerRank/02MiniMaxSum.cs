@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Separa array em um com os menores numeros e outro com os maiores numeros e depois realiza a soma dos mesmos
 //     * Complete the 'miniMaxSum' function below.
 //     *
 //     * The function accepts INTEGER_ARRAY arr as parameter.

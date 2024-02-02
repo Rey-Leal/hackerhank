@@ -18,6 +18,7 @@
 //{
 
 //    /*
+//     * Localiza o elemento medio de um determinado array
 //     * Complete the 'findMedian' function below.
 //     *
 //     * The function is expected to return an INTEGER.

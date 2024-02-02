@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Flipa os bits de uma sequencia e os formata
 //     * Complete the 'flippingBits' function below.
 //     *
 //     * The function is expected to return a LONG_INTEGER.

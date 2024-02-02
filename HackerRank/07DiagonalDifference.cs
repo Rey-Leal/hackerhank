@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Calcula a diferenca entre as diagonais de uma matriz
 //     * Complete the 'diagonalDifference' function below.
 //     *
 //     * The function is expected to return an INTEGER.

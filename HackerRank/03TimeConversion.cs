@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Converte horas 12PM em 24hs
 //     * Complete the 'timeConversion' function below.
 //     *
 //     * The function is expected to return a STRING.

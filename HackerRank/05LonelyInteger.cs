@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Encontra o elemento com apenas uma incidencia no array
 //     * Complete the 'lonelyinteger' function below.
 //     *
 //     * The function is expected to return an INTEGER.
