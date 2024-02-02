@@ -16,7 +16,7 @@
 //{
 
 //    /*
-//     * Converte horas 12PM em 24hs
+//     * Converte horas 12 horas AM/PM em formato militar 24hs
 //     * Complete the 'timeConversion' function below.
 //     *
 //     * The function is expected to return a STRING.
@@ -58,7 +58,6 @@
 //            return (erro.Message.ToString());
 //        }
 //    }
-
 //}
 
 //class Solution

@@ -14,7 +14,6 @@
 
 //class Result
 //{
-
 //    /*
 //     * Realiza contagem de positivos, negativos e zeros
 //     * Complete the 'plusMinus' function below.

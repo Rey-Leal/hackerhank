@@ -43,14 +43,12 @@
 //            // Resultado sempre em numero absoluto
 //            diferenca = Math.Abs(diagonalEsquerda - diagonalDireita);
 //            return diferenca;
-
 //        }
 //        catch (Exception erro)
 //        {
 //            throw (erro);
 //        }
 //    }
-
 //}
 
 //class Solution
@@ -65,7 +63,7 @@
 //        for (int i = 0; i < n; i++)
 //        {
 //            arr.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList());
-//        }        
+//        }
 
 //        //Entrada via Matriz de Array
 //        //int[][] arr = new int[][]
