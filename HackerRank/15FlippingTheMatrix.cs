@@ -16,7 +16,6 @@
 
 //class Result
 //{
-
 //    /*
 //     * Inverte a os elementos de linhas e colunas de uma matriz, com intuito de achar a maior soma possível nos elementos n2xn2
 //     * Complete the 'flippingMatrix' function below.
