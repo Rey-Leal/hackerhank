@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Realiza a ordenacao de um array asc e um array desc, depois compara se a soma de cada item satisfaz o target k
 //     * Complete the 'twoArrays' function below.
 //     *
 //     * The function is expected to return a STRING.

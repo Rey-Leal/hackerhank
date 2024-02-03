@@ -16,6 +16,8 @@
 //{
 
 //    /*
+//     * Realiza contagem de quantas vezes cada elemento aparece no array
+//     * retorna 0 em caso de nao incidendia do item
 //     * Complete the 'countingSort' function below.
 //     *
 //     * The function is expected to return an INTEGER_ARRAY.

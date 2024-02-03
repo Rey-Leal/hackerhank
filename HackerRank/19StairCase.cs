@@ -12,26 +12,34 @@
 //using System.Text;
 //using System;
 
-
-
 //class Result
 //{
-
 //    /*
-//     * Localiza o elemento medio de um determinado array
-//     * Complete the 'findMedian' function below.
+//     * Constroi uma escada de caracteres espaco e # de acordo com parametro n
+//     * Complete the 'staircase' function below.
 //     *
-//     * The function is expected to return an INTEGER.
-//     * The function accepts INTEGER_ARRAY arr as parameter.
+//     * The function accepts INTEGER n as parameter.
 //     */
 
-//    public static int findMedian(List<int> arr)
+//    public static void staircase(int n)
 //    {
 //        try
 //        {
-//            arr.Sort();
-//            int meio = arr.Count / 2;
-//            return arr[meio];
+//            for (int i = 1; i <= n; i++)
+//            {
+//                // Espacos em branco
+//                for (int j = 1; j <= n - i; j++)
+//                {
+//                    Console.Write(" ");
+//                }
+//                // Caracter ao final
+//                for (int j = 1; j <= i; j++)
+//                {
+//                    Console.Write("#");
+//                }
+//                // Quebra linhas
+//                Console.WriteLine();
+//            }
 //        }
 //        catch (Exception erro)
 //        {
@@ -47,11 +55,7 @@
 //    {
 //        int n = Convert.ToInt32(Console.ReadLine().Trim());
 
-//        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
-
-//        int result = Result.findMedian(arr);
-
-//        Console.WriteLine(result);
+//        Result.staircase(n);
 //        Console.ReadLine();
 //    }
 //}

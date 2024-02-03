@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Valida se palavra e um pangrama que contem todas as letras do alfabeto ingles
 //     * Complete the 'pangrams' function below.
 //     *
 //     * The function is expected to return a STRING.
@@ -54,7 +55,7 @@
 //            {
 //                result = "pangram";
 //            }
-            
+
 //            return result;
 //        }
 //        catch (Exception erro)

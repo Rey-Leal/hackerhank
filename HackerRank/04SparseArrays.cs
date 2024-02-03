@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Realiza contagem das incidencias das palavras em um determinado array
 //     * Complete the 'matchingStrings' function below.
 //     *
 //     * The function is expected to return an INTEGER_ARRAY.

@@ -14,50 +14,48 @@
 
 //class Result
 //{
-
 //    /*
-//     * Encontra o elemento com apenas uma incidencia no array
-//     * Complete the 'lonelyinteger' function below.
+//     * Conta a incidencia do maior numero em um array
+//     * Complete the 'birthdayCakeCandles' function below.
 //     *
 //     * The function is expected to return an INTEGER.
-//     * The function accepts INTEGER_ARRAY a as parameter.
+//     * The function accepts INTEGER_ARRAY candles as parameter.
 //     */
 
-//    public static int lonelyinteger(List<int> a)
+//    public static int birthdayCakeCandles(List<int> candles)
 //    {
 //        try
 //        {
-//            int contador = 0;
-//            int resultado = 0;
+//            int quantidade = 0;
+//            int maiorNumero = candles.Max();
 
-//            for (int n = 0; n < a.Count(); n++)
+//            for (int i = 0; i < candles.Count; i++)
 //            {
-//                contador = a.Count(elemento => elemento.Equals(a[n]));
-//                if (contador == 1)
+//                if(candles[i] == maiorNumero)
 //                {
-//                    resultado = a[n];
-//                    n = a.Count();
+//                    quantidade++;
 //                }
 //            }
 
-//            return (resultado);
+//            return quantidade;
 //        }
 //        catch (Exception erro)
 //        {
-//            throw (erro);
+//            throw erro;
 //        }
 //    }
+
 //}
 
 //class Solution
 //{
 //    public static void Main(string[] args)
 //    {
-//        int n = Convert.ToInt32(Console.ReadLine().Trim());
+//        int candlesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-//        List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
+//        List<int> candles = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(candlesTemp => Convert.ToInt32(candlesTemp)).ToList();
 
-//        int result = Result.lonelyinteger(a);
+//        int result = Result.birthdayCakeCandles(candles);
 
 //        Console.WriteLine(result);
 //        Console.ReadLine();

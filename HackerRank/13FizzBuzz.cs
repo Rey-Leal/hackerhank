@@ -16,6 +16,7 @@
 //{
 
 //    /*
+//     * Verifica a divisibilidade por 3 e 5 e classifica com FizzBuss, ou retorna indice
 //     * Complete the 'fizzBuzz' function below.
 //     *
 //     * The function accepts INTEGER n as parameter.

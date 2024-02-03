@@ -16,6 +16,8 @@
 //{
 
 //    /*
+//     * Realiza divisoes de um array em pedacos sequenciais de acordo com parametros
+//     * simulando uma divisao de uma barra de chocolate no maximo de pedacos possiveis
 //     * Complete the 'birthday' function below.
 //     *
 //     * The function is expected to return an INTEGER.
@@ -33,7 +35,7 @@
 //            // d soma dos pedacos
 //            // m tamanho dos pedacos
 //            // ? quantas pedacos consigo dividir no tamanho d
-            
+
 //            // MODO 1
 //            int result = 0;
 
