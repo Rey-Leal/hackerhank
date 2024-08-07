@@ -80,3 +80,18 @@ FROM Company Com
 INNER JOIN Employee Emp ON Emp.company_code = Com.company_code
 GROUP BY Com.company_code, founder
 ORDER BY Com.company_code;
+
+
+--Visitors Report
+SET NOCOUNT ON;
+GO
+
+SELECT SUBSTRING(dt, 6, 2), "Q" + 
+CASE
+    WHEN SUBSTRING(dt, 6, 2) IN ("01", "02", "03") THEN "1"
+    WHEN SUBSTRING(dt, 6, 2) IN ("04", "05", "06") THEN "2"
+    WHEN SUBSTRING(dt, 6, 2) IN ("07", "08", "09") THEN "3"
+    WHEN SUBSTRING(dt, 6, 2) IN ("10", "11", "12") THEN "4"
+    ELSE "0"
+END 
+FROM events;
