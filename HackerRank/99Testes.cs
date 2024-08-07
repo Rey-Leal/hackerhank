@@ -1,33 +1,32 @@
 ﻿//using System;
 
-////Testes em geral
-//class Testes
-//{
-//    //class
-//}
-
-//class Solution
+//public class Program
 //{
 //    public static void Main(string[] args)
 //    {
+//        // Solicita ao usuário para inserir os valores
+//        double P = Convert.ToDouble(Console.ReadLine()); // Lê o valor principal P
+
+//        double i = Convert.ToDouble(Console.ReadLine()); // Lê a taxa de juros i
+
+//        int n = Convert.ToInt32(Console.ReadLine()); // Lê o número de períodos n
+
+//        // Calcula o montante final utilizando a função CalcularJurosSimples
+//        double montanteFinal = CalcularJurosSimples(P, i, n);
+
+//        // Exibe o resultado
+//        Console.WriteLine(montanteFinal); // Mostra o montante final calculado
+//    }
+
+//    public static double CalcularJurosSimples(double P, double i, int n)
+//    {
 //        try
 //        {
-//            decimal resultado = 1582.40M;
-//            double numero = 0.5636;
-//            int inteiro = 4567;
-//            DateTime data = DateTime.Now;
-
-//            Console.WriteLine($"{resultado:C}");
-//            Console.WriteLine($"{resultado:N4}");
-//            Console.WriteLine($"{numero.ToString("P")}");
-//            Console.WriteLine($"{inteiro.ToString("##-##")}");
-//            Console.WriteLine($"{data.ToString("dd/MM/yyyy HH:mm")}");
-
+//            return P + (P * i * n);
 //        }
 //        catch (Exception erro)
 //        {
-//            Console.WriteLine(erro.Message.ToString());
-//            Console.ReadLine();
+//            throw erro;
 //        }
 //    }
 //}
