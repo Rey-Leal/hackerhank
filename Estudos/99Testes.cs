@@ -2,10 +2,7 @@
 
 public class Pessoa
 {
-    public override string ToString()
-    {
-        return "Alterei esse metodo interno!";
-    }
+
 }
 
 class Solution
@@ -14,10 +11,7 @@ class Solution
     {
         try
         {
-            Pessoa pessoa = new Pessoa();
-            int numero = 3242342;
-            Console.WriteLine(pessoa.ToString());
-            Console.WriteLine(numero.ToString());
+
         }
         catch (Exception erro)
         {
